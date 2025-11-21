@@ -1,0 +1,27 @@
+meta {
+  name: edit_user
+  type: http
+  seq: 3
+}
+
+patch {
+  url: http://localhost:5000/users/1
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "age": 31,
+    "updatedby": "talley"
+  }
+}
+
+settings {
+  encodeUrl: false
+  timeout: 0
+}
