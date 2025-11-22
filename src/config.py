@@ -8,3 +8,5 @@ SQLALCHEMY_DATABASE_URI = os.environ.get(
     "postgresql+psycopg2://postgres:Iamsmart27@localhost:5432/northwind"
 )
 SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+API_ACCESS_KEY = 'V3OiDsXgokeVU4jXDqAVNA=='

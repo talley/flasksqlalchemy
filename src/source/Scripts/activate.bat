@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\TEMP\pythons\flasksqlalchemy\source
+set VIRTUAL_ENV=F:\Demo Apps\Github Apps\flasksqlalchemy\src\source
 
 if not defined PROMPT set PROMPT=$P$G
 
